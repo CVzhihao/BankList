@@ -4,7 +4,7 @@
 		<div class="indexbardei">
 			<div class="banklistdiv" v-if="SearchList.length !== 0">
 				<div class="listbank" v-for="item in SearchList">
-					<img :src="'../../../static/BankImg/'+item.value+'.jpg'">
+					<img :src="'BankImg/'+item.value+'.jpg'">
 					<span>{{item.text}}</span>
 				</div>
 			</div>
@@ -13,7 +13,7 @@
 					<van-index-anchor :index="item.index_bar" class="titletoptext" ></van-index-anchor>
 					<div class="banklistdiv">
 						<div class="listbank" v-for="bank in item.bankData">
-							<img :src="'../../../static/BankImg/'+bank.value+'.jpg'">
+							<img :src="'BankImg/'+bank.value+'.jpg'">
 							<span>{{bank.text}}</span>
 						</div>
 					</div>
