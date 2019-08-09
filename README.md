@@ -7,5 +7,6 @@ vue文件是项目中手机端页面源码，有字母检索和模糊搜索。
 
 json文件是银行名称和编码的数据。
 
-
 图片使用银行编码命名的且统一了JPG格式，方便使用
+
+根据银行卡号查询银行编码：https://ccdcapi.alipay.com/validateAndCacheCardInfo.json?cardNo=卡号&cardBinCheck:true
